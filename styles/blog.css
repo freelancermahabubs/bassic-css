@@ -1,0 +1,269 @@
+.header{
+  height: 200px;
+  /* background-image: url('mahabub.jpg'); */
+  /* background-image: url('../mahabub.jpg'); */
+  /* background-image: url('../Images/Home.png'); */
+  /* background: #ffffff url(../Images/klematis4_big.jpg) no-repeat right top; margin-right: 200px; */
+  background-image: url('../Images/klematis4_big.jpg');
+  background-size: cover;
+  background-color: blueviolet;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: white;
+  background-position: top right;
+  background-attachment: scroll;
+}
+.blog{
+  background-color: peru;
+  box-shadow: 100px 10px 10px gray;
+  margin-bottom: 100px;
+}
+h3{
+  color: blueviolet;
+  text-decoration: underline wavy green;
+}
+p{
+  color: blue;
+}
+.page-title{
+  font-weight: 900;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+span{
+  border: 1px solid purple;
+  height: 200px;
+  width: 100px;
+  margin-top: 50px;
+  display: none;
+}
+.box{
+  background-color: lightgray;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  box-sizing: content-box;
+  box-shadow: 10px 10px 10px gray;
+  margin-bottom: 100px;
+}
+.image{
+  width: 350px;
+  height: 263px;
+
+}
+.box2{
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 2px;
+  box-shadow: 5px 5px 5px gray;
+}
+.name1 p{
+  height: 60px;
+  width: 50%;
+  background-color: powderblue;
+  color:black;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline wavy green;
+}
+.name2 p{
+  height: 100px;
+  width: 500px;
+  background-color: aqua;
+  color: black;
+}
+.name3 p{
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
+}
+.name4{
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  box-shadow: 10px 10px 10px gray;
+}
+.name5{
+  border: 1px solid rgb(132, 0, 255);
+  padding: 25px 50px 75px 100px;
+  background-color: green;
+  color: blanchedalmond;
+  box-shadow: 10px 10px 10px gray;
+}
+.name6{
+  border: 1px solid black;
+  padding: 25px 50px 75px;
+  background-color: lightblue;
+}
+.name7{
+  border: 1px solid black;
+  padding: 25px 50px;
+  background-color: blue;
+  color: aliceblue;
+
+}
+.name8{
+  border: 1px solid black;
+  padding: 25px;
+  background-color: crimson;
+  color: white;
+}
+.ex1{
+  width: 300px;
+  background-color: green;
+}
+.ex2{
+  width: 300px;
+  padding: 25px;
+  background-color: chocolate;
+}
+.ex3{
+  width: 300px;
+  background-color: darkmagenta;
+  color: beige;
+}
+.ex4{
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: aquamarine;
+}
+.ex5{
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: burlywood;
+}
+.ex6{
+  border: 1px solid black;
+  margin: 25px 50px 75px 100px;
+  background-color: lightblue;
+}
+.ex7{
+  border: 1px solid black;
+  margin: 25px 52px 75px;
+  background-color: aquamarine;
+}
+.ex8{
+  border: 1px solid black;
+  margin: 25px 50px;
+  background-color: darkgray;
+}
+.ex9{
+  border: 1px solid black;
+  margin: 25px;
+  background-color: cyan;
+}
+.ex10{
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+.ex11{
+  border: 1px solid red;
+  margin-left: 100px;
+}
+p.ex01{
+  margin-left: inherit;
+}
+p.dotted{
+  border-style: dotted;
+}
+p.dashed{
+  border-style: dashed;
+}
+p.solid{
+  border-style: solid;
+}
+p.double{
+  border-style: double;
+}
+p.groove{
+  border-style: groove;
+}
+p.ridge{
+  border-style: ridge;
+}
+p.inset{
+  border-style: inset;
+}
+p.outset{
+  border-style: outset;
+}
+p.none{
+  border-style: none;
+}
+p.hidden{
+  border-style: hidden;
+}
+p.mix{
+  border-style: dotted dashed solid double;
+}
+#para1{
+  text-align: center;
+  color: red;
+}
+
+div.first{
+  opacity: 0.1;
+  background-color: green;
+}
+div.second{
+  opacity: 0.3;
+  background-color: green;
+}
+div.third{
+  opacity: 0.6;
+  background-color: green;
+}
+div.four{
+  opacity: 1;
+  background-color: green;
+}
+div.m1{
+  background: rgba(0, 128, 0, 0.1);
+}
+div.m2{
+  background: rgba(0, 128, 0, 0.3);
+}
+div.m3{
+  background: rgba(0, 128, 0, 0.6);
+}
+div.m4{
+  background-color: green;
+}
+p.ytm{
+  background-image: url(../Images/ma.jpg);
+}
+blockquote{
+  border: 2px;
+  padding: 10px 10px 10px 10px;
+  margin: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+div.a{
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+div.b{
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+div.c{
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+div.d{
+  text-decoration-line: overline underline;
+  text-decoration-style: wavy;
+}
